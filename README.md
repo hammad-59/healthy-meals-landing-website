@@ -1,56 +1,132 @@
-# Welcome to your Expo app 👋
+# Healthify – Healthy Meals Landing Website
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Healthify is a modern, fully responsive healthy meal planning landing website built using **React Native for Web, Expo, TypeScript, and NativeWind (Tailwind CSS)**.
 
-## Get started
+The website showcases a variety of healthy diet meals, meal subscription plans, pricing packages, and nutrition-focused services. It is designed to help users explore meal options based on their dietary preferences, fitness goals, and lifestyle.
 
-1. Install dependencies
+## Live Demo
 
-   ```bash
-   npm install
-   ```
+**Live Website:** [Healthify – Healthy Meals Landing Website](https://healthy-meals-landing-website.vercel.app/)
 
-2. Start the app
+**Deployment Platform:** Vercel
 
-   ```bash
-   npx expo start
-   ```
+## Tech Stack
 
-In the output, you'll find options to open the app in a
+- **React Native for Web** – Component-based frontend development
+- **Expo** – Development environment and web support
+- **TypeScript** – Type-safe development
+- **NativeWind (Tailwind CSS)** – Responsive utility-based styling
+- **Expo Vector Icons / Lucide Icons** – UI icons
+- **Vercel** – Website deployment and hosting
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Website Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Responsive Navigation
+- Navigation bar with branding and section links
+- Smooth scrolling between website sections
+- Responsive navigation for mobile, tablet, and desktop
+- Primary call-to-action buttons
 
-## Get a fresh project
+### Hero Section
+- Attractive landing section with healthy food photography
+- Introduction to Healthify and its healthy meal services
+- Meal plan exploration buttons
+- Key benefits including fresh ingredients and balanced nutrition
 
-When you're ready, run:
+### About Healthify
+- Introduction to the Healthify brand
+- Information about healthy eating and meal preparation
+- Statistics highlighting meals delivered, customer satisfaction, and clients
+
+### Healthy Meal Services
+- Different diet meal options designed for various nutritional needs
+- Meal cards with descriptions and food visuals
+- Information about available meal services
+
+### Meal Plans & Pricing
+- Different meal subscription packages with prices in AED
+- Essential Plan – AED 299
+- Balanced Plan – AED 499
+- Performance Plan – AED 699
+- Plan features and Get Started buttons
+
+### Why Choose Healthify?
+- Advantages of healthy meal subscriptions
+- Fresh ingredients and nutritious food
+- Convenient meal delivery and balanced diet options
+
+### How It Works
+- Simple step-by-step explanation of the meal subscription process
+
+### Customer Testimonials
+- Customer reviews and feedback
+- Testimonials highlighting the Healthify experience
+
+### Frequently Asked Questions
+- Interactive accordion-style FAQ section
+- Expandable questions and answers
+
+### Footer
+- Website navigation links
+- Brand information
+- Contact and additional website information
+
+## Responsive Design
+
+The website is designed to support multiple screen sizes:
+
+- Desktop
+- Tablet
+- Mobile
+
+Reusable React Native components and NativeWind utility classes are used to maintain consistent styling and responsive layouts.
+
+## Getting Started
+
+**1. Clone the repository**
 
 ```bash
-npm run reset-project
+git clone https://github.com/hammad-59/healthy-meals-landing-page.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**2. Navigate to the project folder**
 
-### Other setup steps
+```bash
+cd healthy-meals-landing-page
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+**3. Install dependencies**
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+**4. Start the development server**
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
+**5. Run on Web**
 
-Join our community of developers creating universal apps.
+Press `w` in the Expo terminal to launch the website in your browser.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Project Purpose
+
+This project demonstrates frontend development skills using React Native for Web, Expo, TypeScript, and Tailwind-style styling.
+
+The main focus is on building a visually appealing, responsive, component-based landing website with reusable UI components, interactive sections, and a clean user experience.
+
+## Deployment
+
+The frontend website is deployed on **Vercel** and is publicly accessible.
+
+**Production URL:** https://healthy-meals-landing-website.vercel.app/
+
+## Note
+
+This project is a frontend-only landing website. Meal plan pricing and service information are displayed for demonstration purposes. Backend functionality, payment processing, and actual meal ordering are not implemented.
+
+---
+
+Built with React Native, Expo, TypeScript, and NativeWind.
